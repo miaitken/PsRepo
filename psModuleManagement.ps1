@@ -1,4 +1,4 @@
-$installedModules = Get-InstalledModule -Name Microsoft.Graph*
+$installedModules = Get-InstalledModule
 $requiredModules = @(
     'Microsoft.Graph',
     'Microsoft.Graph.Beta',
